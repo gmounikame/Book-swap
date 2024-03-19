@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Swap</title>
+    <link rel="stylesheet" href="book swap.css">
+</head>
+<body>
+    <header>
+        <h1>Book Swap</h1>
+    </header>
+    <main>
+        <section id="add-book">
+            <h2>Add a Book</h2>
+            <input type="text" id="book-title" placeholder="Title">
+            <input type="text" id="book-author" placeholder="Author">
+            <input type="text" id="book-author" placeholder="Pages">
+            <button onclick="addBook()">Add Book</button>
+        </section>
+        <section id="book-list">
+            <h2>Available Books</h2>
+            <ul id="books"></ul>
+        </section>
+        <section id="button">
+            <ul id="books"></ul>
+            <button onclick="Read()">Read</button>
+            <button onclick="Delete()">Delete</button>
+        </section>
+        
+    </main>
+    
+    <script src="book swap.js"></script>
+</body>
+</html>
